@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.image {
+  width: 600px;
+  border-radius: 5%;
+}
+.main-div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 10px;
+  background-color: #01a1a7;
+  color: #e1c290;
+  font-family: "DM Serif Text", serif;
+  font-weight: 600;
+}
+.container {
+}
+.dm-serif-text-regular {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dm-serif-text-regular-italic {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.item-image {
+  width: 200px;
+}
+.item-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-style: solid;
+  border-color: #d8ad68;
+  margin: 10px;
+  border-radius: 10%;
+  border-width: 5px;
+  padding: 10px;
+  background-color: #01a1a7;
+  color: #e1c290;
+  font-family: "DM Serif Text", serif;
+  font-weight: 600;
+}
+.divs {
+  display: flex;
+}
+.name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
