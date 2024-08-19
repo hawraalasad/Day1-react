@@ -11,13 +11,12 @@
   align-items: center;
 
   padding: 10px;
-  background-color: #01a1a7;
+
   color: #e1c290;
   font-family: "DM Serif Text", serif;
   font-weight: 600;
 }
-.container {
-}
+
 .dm-serif-text-regular {
   font-family: "DM Serif Text", serif;
   font-weight: 400;
@@ -32,16 +31,17 @@
 
 .item-image {
   width: 200px;
+  border-radius: 10%;
 }
 .item-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-style: solid;
+  border-style: none;
   border-color: #d8ad68;
   margin: 10px;
   border-radius: 10%;
-  border-width: 5px;
+  border-width: 4px;
   padding: 10px;
   background-color: #01a1a7;
   color: #e1c290;
@@ -56,4 +56,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.searchBar {
+  color: #8a5e17;
+  border: none;
+  background-color: #00000018;
+  border-radius: 10px;
+  width: 300px;
+  height: 40px;
+  padding: 10px;
 }
