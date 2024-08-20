@@ -20,15 +20,15 @@ function App() {
   return (
     <div className="main-div">
       <div className="name">
-        <h1>Cookies and Beyond</h1>
+        <h1>MILLIES'S COOKIES</h1>
         <p>
-          <b>Where cookies maniacs gather</b>
+          <b>A little taste of heaven</b>
         </p>
         <Visitors />
         <img src={shop} alt="shop" className="image" />
       </div>
       <br />
-      <h1 className="name">Explore our heavenly products</h1>
+      <h1 className="name">Explore our heavenly menu</h1>
       <Search setSearch={setSearch} />
       <div className="divs">
         <ProductList items={itemsSearch} />

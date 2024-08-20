@@ -9,9 +9,9 @@ const Visitors = () => {
   return (
     <div>
       <button className="visitor-button" onClick={updateVisitor}>
-        Click Me
+        Try a Cookie
       </button>
-      <p>Visitors: {visitor}</p>
+      <p>Cookies: {visitor}</p>
     </div>
   );
 };

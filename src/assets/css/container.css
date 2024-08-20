@@ -47,12 +47,11 @@
   color: #e1c290;
   font-family: "DM Serif Text", serif;
   font-weight: 600;
-  cursor: pointer;
 }
-.item-container:hover {
+/* .item-container:hover {
   background-color: #01a1a7a6;
   color: #8a5e17;
-}
+} */
 .divs {
   display: flex;
 }
@@ -84,4 +83,56 @@
 .visitor-button:hover {
   background-color: #01a1a7ad;
   color: #8a5e17;
+}
+.modal-button {
+  border-radius: 10px;
+  width: 100px;
+  border: none;
+  color: #8a5e17;
+  cursor: pointer;
+  height: 22px;
+  background-color: rgb(232, 231, 231);
+}
+
+.modal-button:hover {
+  background-color: rgba(223, 218, 218, 0.959);
+}
+
+.modal-background {
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.modal-container {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  color: #a37935;
+}
+
+.delete-button {
+}
+
+.two {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.modal-button-delete {
+  border-radius: 10px;
+  width: 100px;
+  border: none;
+  color: #fcfcfb;
+  cursor: pointer;
+  height: 22px;
+  background-color: rgb(219, 111, 111);
 }
