@@ -73,12 +73,13 @@
 
 .visitor-button {
   background-color: #01a1a7;
-  border-radius: 12px;
+  border-radius: 15px;
   border: none;
   color: #e1c290;
-  width: 200px;
-  height: 40px;
+  width: 120px;
+  height: 60px;
   cursor: pointer;
+  margin: 10px;
 }
 .visitor-button:hover {
   background-color: #01a1a7ad;
@@ -135,4 +136,15 @@
   cursor: pointer;
   height: 22px;
   background-color: rgb(219, 111, 111);
+}
+.visitor-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cookies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
 }

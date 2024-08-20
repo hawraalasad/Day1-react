@@ -7,11 +7,12 @@ const Visitors = () => {
   };
 
   return (
-    <div>
+    <div className="visitor-container">
       <button className="visitor-button" onClick={updateVisitor}>
-        Try a Cookie
+        <b>Try a Cookie</b>
       </button>
-      <p>Cookies: {visitor}</p>
+
+      <p className="cookies">Cookies: {visitor}</p>
     </div>
   );
 };

@@ -22,9 +22,10 @@ function App() {
       <div className="name">
         <h1>MILLIES'S COOKIES</h1>
         <p>
-          <b>A little taste of heaven</b>
+          <b>"A little taste of heaven"</b>
         </p>
         <Visitors />
+        <br></br>
         <img src={shop} alt="shop" className="image" />
       </div>
       <br />
