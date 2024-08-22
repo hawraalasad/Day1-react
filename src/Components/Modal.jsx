@@ -1,5 +1,5 @@
 import React from "react";
-import items from "../assets/Data/Data";
+
 import "../assets/css/container.css";
 
 const Modal = ({ closeModal }) => {
